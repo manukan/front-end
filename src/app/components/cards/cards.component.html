@@ -1,0 +1,16 @@
+<div class="container " id="estudios">
+   
+    <h4>{{titulo}}</h4>
+ <div
+    *ngFor="let experiencia of datas"
+    >
+ 
+  <app-card 
+  [descripcion]="experiencia.descripcion"
+  [nombre]="experiencia.nombre"
+  [ano]="experiencia.ano"
+  ></app-card>
+ 
+        
+ </div>
+</div>
